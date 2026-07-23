@@ -1,0 +1,31 @@
+# Personal projects & ideas board.
+# Add a new project by copying a block below.
+# status: one of  idea | planning | in-progress | done
+# link and tags are optional.
+
+- title: Personal Website
+  status: in-progress
+  description: This very site — an ongoing playground for experimenting with Jekyll and sharing what I'm working on.
+  link: https://github.com/inayi/inayi.github.io
+  tags: [jekyll, web]
+
+- title: What's For Dinner
+  status: in-progress
+  description: A live web app to help decide what to cook.
+  link: https://inayi.github.io/whatsfordinner/
+  tags: [web, app]
+
+- title: AI resume builder
+  status: in-progress
+  description: A small tool to tailor resume based on job description, forked from camunity/ai_resume_builder, making enhancements.
+  link: https://github.com/inayi/ai_resume_builder
+  tags: [app, resume]
+
+# Quick notepad — add a one-liner under `notes:` any time an idea strikes.
+- title: Idea Dump
+  status: idea
+  description: Half-formed ideas jotted down before I forget them.
+  notes:
+    - A browser extension that summarizes recipes.
+    - Try building a small daily-journal static site.
+    - Learn more Ruby / Jekyll internals.
