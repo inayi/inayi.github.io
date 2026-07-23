@@ -21,7 +21,7 @@
 title: Ina Yi
 email: yinab217@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  2025
+  2026
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inayi.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  inayi
