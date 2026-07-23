@@ -2,14 +2,22 @@
 layout: page
 ---
 
-Projects I'm building, exploring, or just dumping here to plan and implement later.
+<p class="projects-intro">Projects I'm building, exploring, or just dumping here to plan and implement later.</p>
 
 <style>
+  .projects-intro {
+    text-align: center;
+    color: #444;
+  }
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.25rem;
     margin-top: 1.5rem;
+  }
+  .projects-grid .project-card {
+    flex: 0 1 280px;
   }
   .projects-grid .project-card {
     border: 1px solid #e0e0e0;
