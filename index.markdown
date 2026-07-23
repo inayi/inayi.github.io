@@ -2,8 +2,6 @@
 layout: page
 ---
 
-# Projects
-
 Projects I'm building, exploring, or just dumping here to plan and implement later.
 
 <style>
