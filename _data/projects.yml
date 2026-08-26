@@ -10,10 +10,10 @@
   tags: [jekyll, web]
 
 - title: What's For Dinner
-  status: in-progress
-  description: A live web app to help decide what to cook.
-  link: https://inayi.github.io/whatsfordinner/
-  tags: [web, app]
+  status: v1.0.0 released
+  description: A private, shared kitchen for multiple users — synced weekly meal plan and auto-deduped shopping list. No email, no password.
+  link: https://ourkitchen-sync.vercel.app/
+  tags: [web, app, JavaScript, PostgresSQL, Vercel, SupaBase]
 
 - title: AI resume builder
   status: in-progress
