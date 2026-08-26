@@ -98,7 +98,9 @@ layout: page
       <div class="project-title">
         {% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}
       </div>
+      {% comment %}
       <span class="badge badge--{{ project.status }}">{{ project.status | replace: '-', ' ' }}</span>
+      {% endcomment %}
     </div>
     <p class="project-desc">{{ project.description }}</p>
     {% if project.notes %}
